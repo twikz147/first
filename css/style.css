@@ -1,0 +1,128 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+	background-color: #e8e8e8;
+	background: url(../img/ellipse_1_copy_4.png) 150px 30px no-repeat;
+}
+.content{
+	width: 1440px;
+	height: 1700px;
+	}
+.travel{
+	opacity: 0.6;
+font-family: Arial;
+font-size: 14px;
+line-height: 40px;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #273d46;
+text-align: center;
+padding-top: 100px;
+}
+h1{
+	font-family: 'Times New Roman';
+font-size: 36px;
+line-height: 50px;
+color: #273d46;
+width: 720px;
+height: 80px;
+text-align: center;
+margin-bottom: 50px;
+margin-left: 370px;
+}
+img{
+width: 841px;
+height: 561px;
+box-shadow: 0px 15px 65px 0px rgba(15,16,16,0.15);
+border: 10px solid white;
+align-items: center;
+margin: 0 0 0 300px;
+}
+.paragraph{
+	opacity: 0.8;
+	font-family: 'Times New Roman';
+	font-size: 24px;
+	line-height: 40px;
+	font-weight: 400;
+	color: #273d46;
+	width: 740px;
+	height: 260px;
+	margin:60px 0 0 350px;
+	text-align: left;
+
+}
+#secondpar{
+	padding-top: 60px;
+}
+ul{
+width: 500px;
+height: 130px;
+margin: 100px 0 0 350px;
+}
+#list1{
+	font-family: Arial;
+font-size: 20px;
+line-height: 36px;
+font-weight: 400;
+text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+color: #273d46;
+}
+#list2{
+	font-family: Arial;
+font-size: 20px;
+line-height: 36px;
+font-weight: 400;
+font-style: italic;
+color: #80b7b3;
+}
+#list3{
+	font-family: Arial;
+font-size: 20px;
+line-height: 36px;
+font-weight: 700;
+color: #273d46;
+}
+#list4{
+font-family: Arial;
+font-size: 20px;
+line-height: 36px;
+font-weight: 400;
+text-decoration: line-through;
+color: #bcc1c3;
+}
+li{
+	background: url(../img/icons/check_icon_37.png) left 10px no-repeat;
+	padding-left: 30px;
+
+	}
+button{
+	width: 199px;
+height: 44px;
+box-shadow: 0px 6px 40px 0px rgba(128,183,179,0.54);
+margin: 50px 0 0 350px;
+border-radius: 50px;
+font-family: Arial;
+font-size: 14px;
+line-height: 40px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #ffffff;
+background: url(../img/icons/shape_2_9.png) 160px 14px rgba(72, 165, 159, 0.54) no-repeat;
+}
